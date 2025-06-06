@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+ENV/
+.venv/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtualenv
+.env/
+venv/
+ENV/
+
+# Data files (often large)
+*.csv
+*.tsv
+*.json
+*.sqlite3
+*.db
+data/
+ml-models/data/
+ml-models/saved_models/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node
+node_modules/
+npm-debug.log*
+
+# React build
+frontend/build/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.swp
